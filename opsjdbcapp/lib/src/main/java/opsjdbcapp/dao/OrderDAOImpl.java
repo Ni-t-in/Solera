@@ -25,7 +25,6 @@ public class OrderDAOImpl implements OrderDAO{
 				return "Product added successfully.";
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return "Error";
